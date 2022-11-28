@@ -3,16 +3,20 @@ title: "Deskriptive Statistik (WiSe 22)"
 subtitle: "Lehrstuhl für Ökonometrie (UDE)"
 ---
 
-Aufgrund der aktuellen technischen Probleme bei den Informationsdiensten der Universität stellen wir Materialien für den Kurs *Deskriptive Statistik* kurzfristig über diese Website bereit. Beachten Sie, dass `JACK` davon genauso betroffen ist wie alle anderen Dienste.
+Aufgrund der aktuellen technischen Probleme bei den Informationsdiensten der Universität stellen wir Materialien für den Kurs *Deskriptive Statistik* kurzfristig über diese Website bereit. Beachten Sie, dass `JACK` von der Störung genauso betroffen ist wie alle anderen Dienste.
 
-**Bitte beachten Sie, dass sämtlich Emaildienste der Universität ebenfalls betroffen sind. Daher haben wir die nachfolgenden E-mail-Adressen für Sie eingerichtet.** 
+**Bitte beachten Sie, dass sämtliche E-Mail-Dienste der Universität ebenfalls betroffen sind. Daher haben wir die nachfolgenden E-Mail-Adressen für Sie eingerichtet.**
 
 ## Kontakt
 
-Bei **wichtigen** Fragen wenden Sie sich bitte per Email an uns:
+Bei **wichtigen** Fragen wenden Sie sich bitte per E-Mail an uns:
 
-- [Jens Klenke](mailto:jens.klenke.ude@gmail.com?subject=[Deskriptive Statistik])
-- [Christoph Hanck](mailto:christoph.hanck@uni-dortmund.de?subject=[Deskriptive Statistik])
+-   [Jens Klenke](mailto:jens.klenke.ude@gmail.com?subject=[Deskriptive Statistik])
+-   [Christoph Hanck](mailto:christoph.hanck@uni-dortmund.de?subject=[Deskriptive Statistik])
+
+## Testate
+
+Aufgrund der technischen Störungen an der Universität Duisburg-Essen wird das 2. Tests, geplant am 30.11.2022, auf unbestimmte Zeit verschoben. Wir werden Sie über Änderungen frühzeitig informieren.
 
 <!--
 ## Discord: Diskussions- und Nachrichtenforum
