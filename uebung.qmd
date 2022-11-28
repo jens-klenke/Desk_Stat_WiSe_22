@@ -2,33 +2,34 @@
 title: "Übung"
 ---
 
-Nachfolgend finden Sie Materialien für die Übung. Die Veranstaltung findet -- vorbehaltlich weiterer Entwicklungen -- weiterhin in R11 T08 C98 statt.
-
-## Online-Companion (ITER)
-
-[Link zum Online-Companion](https://www.econometrics-with-r.org/)
+Nachfolgend finden Sie Materialien für die Übung. 
 
 ## Übungsblätter
 
-- [Übungsblatt 1](https://github.com/mca91/Eidoe22/raw/main/Blatt-1.pdf)
-- [Übungsblatt 2](https://github.com/mca91/Eidoe22/raw/main/Blatt-2.pdf)
-- [Übungsblatt 3](https://github.com/mca91/Eidoe22/raw/main/Blatt-3.pdf)
-- [Übungsblatt 4](https://github.com/mca91/Eidoe22/raw/main/Blatt-4.pdf)
-- [Übungsblatt 5](https://github.com/mca91/Eidoe22/raw/main/Blatt-5.pdf)
+-   [Übungsblatt 1](https://github.com/jens-klenke/Desk_Stat_WiSe_22/tree/main/exercise/Uebungsblatt_1.pdf)
+-   [Übungsblatt 2](https://github.com/mca91/Eidoe22/raw/main/Blatt-2.pdf)
+-   [Übungsblatt 3](https://github.com/mca91/Eidoe22/raw/main/Blatt-3.pdf)
+-   [Übungsblatt 4](https://github.com/mca91/Eidoe22/raw/main/Blatt-4.pdf)
+-   [Übungsblatt 5](https://github.com/mca91/Eidoe22/raw/main/Blatt-5.pdf)
+
+## Mitschirften 
+-   [Mitschrift Übung 1](https://github.com/jens-klenke/Desk_Stat_WiSe_22/tree/main/exercise/Mitschrift_Uebung_1.pdf)
 
 ## R-Lösungen
 
-- [R-Lösungen Blatt 1](https://github.com/mca91/Eidoe22/raw/main/Blatt-1_R_sol.pdf)
-- [R-Lösungen Blatt 3](https://github.com/mca91/Eidoe22/raw/main/Blatt-3_R_sol.pdf)
-- [R-Lösungen Blatt 4](https://github.com/mca91/Eidoe22/raw/main/Blatt-4_R_sol.pdf)
+-   [R-Lösungen Übung 1](https://github.com/jens-klenke/Desk_Stat_WiSe_22/tree/main/exercise/exercise_1.R)
 
 ## Datensätze
 
-- [CASchools.Rdata](https://github.com/mca91/Eidoe22/raw/main/CASchools.Rdata)
+<!--
+-   [CASchools.Rdata](https://github.com/mca91/Eidoe22/raw/main/CASchools.Rdata)
+
+
 
 ## Zusatzaufgabe 1
 
 *Mit dieser Zusatzaufgabe können Sie bis zu 2.5 Zusatzpunkte für die Klausur erwerben. Die Zusatzpunkte werden nur bei bestandener Klausur angerechnet. Sie können die Aufgaben in einer Gruppe von bis zu drei Personen bearbeiten. Ihre Lösungen sind bis einschließlich Mittwoch, den 7.12.2022, unter Nennung von Na- men und Matrikelnummer aller Beteiligten als kommentiertes R-Skript per E-Mail einzureichen (siehe Aufgabenblatt).*
 
-- [Zusatzaufgabe 1](https://github.com/mca91/Eidoe22/raw/main/Assignment1.pdf)
-- <a href="https://github.com/mca91/Eidoe22/raw/main/stimmung.csv" download>stimmung.csv</a> (Rechtsklick -> Ziel/Datei speichern als/unter, falls sich kein download öffnet)
+-   [Zusatzaufgabe 1](https://github.com/mca91/Eidoe22/raw/main/Assignment1.pdf)
+-   <a href="https://github.com/mca91/Eidoe22/raw/main/stimmung.csv" download>stimmung.csv</a> (Rechtsklick -\> Ziel/Datei speichern als/unter, falls sich kein download öffnet)
+-->

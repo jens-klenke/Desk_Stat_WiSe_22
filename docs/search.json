@@ -4,7 +4,7 @@
     "href": "uebung.html",
     "title": "Übung",
     "section": "",
-    "text": "Nachfolgend finden Sie Materialien für die Übung. Die Veranstaltung findet – vorbehaltlich weiterer Entwicklungen – weiterhin in R11 T08 C98 statt."
+    "text": "Nachfolgend finden Sie Materialien für die Übung."
   },
   {
     "objectID": "uebung.html#online-companion-iter",
@@ -25,14 +25,14 @@
     "href": "uebung.html#r-lösungen",
     "title": "Übung",
     "section": "R-Lösungen",
-    "text": "R-Lösungen\n\nR-Lösungen Blatt 1\nR-Lösungen Blatt 3\nR-Lösungen Blatt 4"
+    "text": "R-Lösungen\n\nR-Lösungen Übung 1"
   },
   {
     "objectID": "uebung.html#datensätze",
     "href": "uebung.html#datensätze",
     "title": "Übung",
     "section": "Datensätze",
-    "text": "Datensätze\n\nCASchools.Rdata"
+    "text": "Datensätze"
   },
   {
     "objectID": "uebung.html#zusatzaufgabe-1",
@@ -75,5 +75,12 @@
     "title": "Einführung in die Ökonometrie (WiSe 22)",
     "section": "Discord: Diskussions- und Nachrichtenforum",
     "text": "Discord: Diskussions- und Nachrichtenforum"
+  },
+  {
+    "objectID": "uebung.html#mitschirften",
+    "href": "uebung.html#mitschirften",
+    "title": "Übung",
+    "section": "Mitschirften",
+    "text": "Mitschirften\n\nMitschrift Übung 1"
   }
 ]
