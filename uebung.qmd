@@ -6,18 +6,18 @@ Nachfolgend finden Sie Materialien für die Übung.
 
 ## Übungsblätter
 
--   [Übungsblatt 1](https://github.com/jens-klenke/Desk_Stat_WiSe_22/tree/main/exercise/Uebungsblatt_1.pdf)
+-   [Übungsblatt 1](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/exercise/Uebungsblatt_1.pdf)
 -   [Übungsblatt 2](https://github.com/mca91/Eidoe22/raw/main/Blatt-2.pdf)
 -   [Übungsblatt 3](https://github.com/mca91/Eidoe22/raw/main/Blatt-3.pdf)
 -   [Übungsblatt 4](https://github.com/mca91/Eidoe22/raw/main/Blatt-4.pdf)
 -   [Übungsblatt 5](https://github.com/mca91/Eidoe22/raw/main/Blatt-5.pdf)
 
 ## Mitschirften 
--   [Mitschrift Übung 1](https://github.com/jens-klenke/Desk_Stat_WiSe_22/tree/main/exercise/Mitschrift_Uebung_1.pdf)
+-   [Mitschrift Übung 1](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/exercise/Mitschrift_Uebung_1.pdf)
 
 ## R-Lösungen
 
--   [R-Lösungen Übung 1](https://github.com/jens-klenke/Desk_Stat_WiSe_22/tree/main/exercise/exercise_1.R)
+-   [R-Lösungen Übung 1](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/exercise/exercise_1.R)
 
 ## Datensätze
 
