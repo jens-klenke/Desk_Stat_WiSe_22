@@ -3,7 +3,7 @@ title: "Deskriptive Statistik (WiSe 22)"
 subtitle: "Lehrstuhl für Ökonometrie (UDE)"
 ---
 
-Aufgrund der aktuellen teschnischen Probleme bei den Informationsdiensten der Universität stellen wir Materialien für den Kurs *Deskriptive Statistik* kurzfristig über diese Website bereit. 
+Aufgrund der aktuellen technischen Probleme bei den Informationsdiensten der Universität stellen wir Materialien für den Kurs *Deskriptive Statistik* kurzfristig über diese Website bereit. Beachten Sie, dass `JACK` davon genauso betroffen ist wie alle anderen Dienste.
 
 **Bitte beachten Sie, dass sämtlich Emaildienste der Universität ebenfalls betroffen sind. Daher haben wir die nachfolgenden E-mail-Adressen für Sie eingerichtet.** 
 

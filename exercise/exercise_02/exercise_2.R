@@ -1,0 +1,31 @@
+# Arbeitsblatt 2 
+# Augfgabe 1
+# a)
+X <- c(9, 7, 7, 9, 8, 6, 6, 5, 8, 6, 5, 6, 7, 5, 6, 5, 5, 5, 5, 5)
+
+# Häufigkeitstabelle mit abs. Häufigkeiten
+table(X)
+
+# Häufigkeitstabelle mit rel. Häufigkeiten
+table(X)/length(X)
+
+# Stabdiagramm
+barplot(table(X))
+
+#####################
+#b)
+Y <- c(13200, 18000, 17400, 7200, 10800, 7200, 9600, 7400, 9600, 2800,
+       9200, 5000, 4800, 6400, 5400, 6800, 2400, 2000, 5500, 4000)
+length(Y)
+
+# Häufigkeitstabelle mit abs. Häufigkeiten
+table(cut(Y, breaks = c(0, 3000, 5000, 7000, 20000)))
+
+# Häufigkeitstabelle mit rel. Häufigkeiten
+table(cut(Y, breaks = c(0, 3000, 5000, 7000, 20000)))/length(Y)
+
+# Histogramm
+hist(Y, breaks = c(0, 3000, 5000, 7000, 20000))
+
+
+

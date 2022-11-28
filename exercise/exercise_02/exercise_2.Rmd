@@ -1,0 +1,69 @@
+---
+title: 'Deskriptive Statistik'
+author: 'Prof. Christoph Hanck'
+author2: 'M.Sc. Jens Klenke'
+subtitle: 'Übung 2'
+semester: "Wintersemester 2022/2023"
+output:
+  pdf_document:
+    keep_tex: yes
+    template: ../template.tex
+    fig_caption: yes
+    number_sections: true
+toc: true
+lot: true
+lof: true
+graphics: true
+linkcolor: black
+urlcolor: black
+citecolor: black
+colorlinks: true
+font: Times New Roman
+fontsize: 12pt
+geometry: lmargin = 2cm, rmargin = 2.5cm, tmargin = 2cm, bmargin = 2.5cm
+classoption: a4paper
+---
+
+```{r , include=FALSE}
+#Sys.setlocale(locale = "English_United States.1252") ## English US Windows
+knitr::opts_chunk$set(echo = TRUE)
+
+#options(kableExtra.latex.load_packages = FALSE)
+#### required packages ####
+source("../includes/packages/packages.R")
+```
+
+
+# Häufigkeitsverteilungen
+
+In der Personaldatei eines Unternehmens befinden sich folgende Angaben 
+
+\begin{enumerate}[label=(\alph*)]
+  \item der Vektor $X$, der die Dauer der Unternehmenszugehörigkeit (in Jahren) der Beschäftigten enthält.
+$$X = \left\{ \ 9, \; 7, \; 7, \; 9, \; 8, \; 6, \; 6, \; 5, \; 8, \; 6, \; 5, \; 6, \; 7, \; 5 , \; 6, \; 5, \; 5, \; 5, \; 5, \; 5 \ \right\}
+$$
+\vspace*{-1.5cm}
+\begin{itemize}
+\item[$\;$] $\;$
+\begin{enumerate}[label=(\roman*)]
+  \item Erstellen Sie eine Häufigkeitstabelle der ungeordneten Urliste des Merkmals $X$. 
+  \item Stellen Sie die Häufigkeitsverteilung in einem Stabdiagramm dar.
+\end{enumerate}
+\end{itemize}
+  \item der Vektor $Y$, der die monatlichen Bruttogehälter (in Euro) der Beschäftigten beschreibt.
+\begin{align*}
+Y = \{ & \; 13.200, \; 18.000, \; 17.400, \; 7.200, \; 10.800, \; 7.200, \; 9.600, \; 7.400, \; 9.600, \; 2.800 , \; 9.200, \\
+& \; 5.000, \; 4.800, \; 6.400, \;5.400, \; 6.800, \; 2.400, \; 2.000, \; 5.500, \; 4.000 \ \}
+\end{align*}
+
+\begin{enumerate}[label=(\roman*)]
+  \item Warum ergibt in dem vorliegenden Fall eine nicht-klassierte Häufikgietstabelle wenig Sinn?
+  \item Klassieren Sie den Datensatz unter Verwendung der folgenden vier rechtsgeschlossenen
+Klassen: 
+
+$$(0, 3.000], \ (3.000, 5.000], \ (5.000, 7.000] \ \text{und} \ (7.000, 20.000].$$
+  \item Erstellen Sie eine Häufigkeitstabelle der klassierten Daten.
+  \item Stellen Sie die Häufigkeitsverteilung in einem geeigneten Diagramm dar.
+
+\end{enumerate}
+\end{enumerate}

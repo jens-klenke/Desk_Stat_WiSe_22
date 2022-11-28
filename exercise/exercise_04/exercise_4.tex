@@ -1,0 +1,297 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{lmodern}
+
+\usepackage{scalerel}
+\usepackage{bbm}
+\usepackage{enumitem}
+\usepackage{placeins}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[lmargin = 2cm, rmargin = 2.5cm, tmargin = 2cm, bmargin =
+2.5cm]{geometry}
+
+
+% Figure Placement:
+\usepackage{float}
+\let\origfigure\figure
+\let\endorigfigure\endfigure
+\renewenvironment{figure}[1][2] {
+    \expandafter\origfigure\expandafter[H]
+} {
+    \endorigfigure
+}
+
+%%%% Jens %%%%
+\usepackage{titlesec}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\renewcommand{\vec}{\operatorname{vec}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\Var}{\operatorname{Var}} % Variance
+\newcommand{\MSE}{\operatorname{MSE}} % Variance
+\newcommand{\VAR}{\operatorname{VAR}} % Vector autoregression
+\newcommand{\Lag}{\operatorname{L}} % Lag operator
+\newcommand{\Cov}{\operatorname{Cov}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\adj}{\operatorname{adj}}
+\newcommand{\loglik}{\operatorname{ll}}
+
+
+\usepackage{booktabs}
+\usepackage{centernot}
+\usepackage{mathtools}
+
+\allowdisplaybreaks
+
+\titleformat{\section}
+{\normalfont\large\bfseries}{\thesection}{1em}{}
+
+\newcommand{\tmpsection}[1]{}
+\let\tmpsection=\section
+\renewcommand{\section}[1]{\tmpsection{\underline{#1}} }
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%% citation setup
+\usepackage{csquotes}
+
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true, linktocpage = TRUE]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={Prof.~Christoph Hanck},
+            pdftitle={Deskriptive Statistik},
+            colorlinks=true,
+            citecolor=black,
+            urlcolor=black,
+            linkcolor=black,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{5}
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+  \title{Deskriptive Statistik}
+  \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+\subtitle{Übung 4}
+  \author{Prof.~Christoph Hanck}
+  \preauthor{\centering\large\emph}
+  \postauthor{\par}
+  \date{}
+  \predate{}\postdate{}
+
+
+%% linespread settings
+
+\usepackage{setspace}
+
+\onehalfspacing
+
+
+% Language Setup
+
+\usepackage{ifthen}
+\usepackage{iflang}
+\usepackage[super]{nth}
+\usepackage[ngerman, english]{babel}
+
+%Acronyms
+\usepackage[printonlyused, withpage, nohyperlinks]{acronym}
+\usepackage{changepage}
+
+% Multicols for the Title page
+\usepackage{multicol}
+
+
+% foot
+
+
+\begin{document}
+
+\selectlanguage{english}
+
+%%%%%%%%%%%%%% Jens %%%%%
+\numberwithin{equation}{section}
+
+
+
+
+\restoregeometry
+
+
+%%% Header 
+
+\begin{minipage}{0.6\textwidth}
+Universität Duisburg-Essen\\
+Lehrstuhl Ökonometrie\\
+Prof.~Christoph Hanck \\
+M.Sc. Jens Klenke \\
+\end{minipage}
+
+%\begin{minipage}{0.3\textwidth}
+	\begin{flushright}
+	\vspace{-3.55cm}
+	\includegraphics*[width=5cm]{../Includes/duelogo_de.png}\\
+	\vspace{.125cm}
+	Wintersemester 2022/2023
+	\end{flushright}
+%\end{minipage}
+%\vspace{.125cm}
+
+
+\begin{center}
+	\vspace{.25cm}
+	\textbf{\Large{Deskriptive Statistik}}\\
+	\vspace{.25cm}
+	\textbf{\large{Übung 4}}\\
+	\vspace{.125cm}
+\end{center}
+
+
+
+
+% body from markdown
+
+\hypertarget{lageparameter-i}{%
+\section{Lageparameter I}\label{lageparameter-i}}
+
+Aus der Vorlesung ist Ihnen schon der Datensatz \texttt{iris} bekannt,
+welcher Informationen über die Abmessungen von Kelchblättern beinhaltet.
+Die Variable \texttt{Sepal.Width} beschreibt die Breite von insgesamt
+\(150\) Blättern.
+
+Berechnen Sie für die Breite:
+
+\begin{enumerate}[label=(\alph*)]
+  \item den Median. 
+  \item den Modus. 
+  \item das arithmetische Mittel. 
+\end{enumerate}
+
+\emph{Hinweis: Der Datensatz steht Ihnen in \texttt{R} automatisch zur
+Verfügung. Um auf eine Variable in einen Datensatz zugreifen zu können,
+müssen Sie das \texttt{\$}-Symbol benutzen.}
+
+\hypertarget{lageparameter-ii}{%
+\section{Lageparameter II}\label{lageparameter-ii}}
+
+\(134\) Bereitschaften des Malteser Hilfsdienstes werden über die Anzahl
+ihrer jährlichen Einsätze befragt. Nachdem \(130\) Bereitschaften ihre
+Angaben gemacht haben, ergibt sich:
+
+\FloatBarrier
+\begin{table}[htp]
+  \begin{tabular}{lr}
+    Modus                 & $x_M = 2500$ \\
+    Median                & $x_{Med} = 2900$ \\
+    arithmetisches Mittel & $\bar{x} = 3200$
+  \end{tabular}
+\end{table}
+\FloatBarrier
+
+Schließlich machen die letzten vier Bereitschaften ihre Angaben. Sie
+fuhren \(1000\), \(1800\), \(5000\) bzw. \(6072\) Einsätze.
+
+Bestimmen Sie unter Berücksichtigung aller eingegangenen Daten:
+
+\begin{enumerate}[label=(\alph*)]
+  \item den Median. 
+  \item den Modus. 
+  \item das arithmetische Mittel. 
+\end{enumerate}
+
+\hypertarget{minimierungseigenschaft-des-arithmetischen-mittels}{%
+\section{Minimierungseigenschaft des arithmetischen
+Mittels}\label{minimierungseigenschaft-des-arithmetischen-mittels}}
+
+Zeigen Sie die Minimierungseigenschaf:
+
+\[\sum_{j = 1}^{n} (x_j - \bar{x})^{2} \leq \sum_{j = 1}^{n} (x_j - a)^{2} \qquad \text{für}\; a \in \mathbb{R}\]
+
+\hypertarget{lageparameter-iii}{%
+\section{Lageparameter III}\label{lageparameter-iii}}
+
+Der monatliche Gasverbrauch (in Kubikmetern) eines Einfamilienhauses im
+Jahr 2021 war wie folgt:
+
+\FloatBarrier
+\begin{table}[htp]
+  \centering
+   \resizebox{\textwidth}{!}{ 
+  \begin{tabular}{@{}lcccccccccccc@{}}
+    Monat & Jan & Feb & Mär & Apr & Mai & Jun & Jul & Aug & Sep & Okt & Nov & Dez \\ \midrule
+    $x_i$ & $386,4$  & $312,0$ & $300,0$ & $194.4$  & $84,0$ &  $52,8$ & $40,8$ & $38,4$ & $124,8$ & $201,6$ & $292,8$ & $372,0$     \\
+  \end{tabular}
+   }
+\end{table}
+\FloatBarrier
+
+\begin{enumerate}[label=(\alph*)]
+  \item Berechnen Sie den durchschnittlichen Gasverbrauch pro Monat.
+  \item Auf der jährlichen Abrechnung des Gasversorgers wird der Verbrauch in der Regel in Kilowattstunden (kWh) angegeben. Dieser Wert ergibt sich aus der Formel
+  
+  $$kWh = m^3 \times Brennwert \times Zustandszahl$$
+  welche die Menge an tatsächlich entnommener thermischer Energie angibt. Angenommen der Brennwert betrage $9,3$ und die Zustandszahl $0,9103$. Wieviel thermische Energie wurde im Durchschnitt im Beispielhaushalt pro Monat verbraucht?
+\end{enumerate}
+
+\hypertarget{axiome}{%
+\section{Axiome}\label{axiome}}
+
+Erläutern Sie kurz die \(4\) wichtigsten Axiome der Lageparameter und
+zeigen Sie, dass jene von Modus \(x_M\), Median \(x_{Med}\) und
+arithmetischem Mittel \(\bar{x}\) erfüllt werden.
+
+\end{document}

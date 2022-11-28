@@ -1,0 +1,108 @@
+---
+title: 'Deskriptive Statistik'
+author: 'Prof. Christoph Hanck'
+author2: 'M.Sc. Jens Klenke'
+subtitle: 'Übung 5'
+semester: "Wintersemester 2022/2023"
+output:
+  pdf_document:
+    keep_tex: yes
+    template: ../template.tex
+    fig_caption: yes
+    number_sections: true
+toc: true
+lot: true
+lof: true
+graphics: true
+linkcolor: black
+urlcolor: black
+citecolor: black
+colorlinks: true
+font: Times New Roman
+fontsize: 12pt
+geometry: lmargin = 2cm, rmargin = 2.5cm, tmargin = 2cm, bmargin = 2.5cm
+classoption: a4paper
+---
+
+```{r , include=FALSE}
+#Sys.setlocale(locale = "English_United States.1252") ## English US Windows
+knitr::opts_chunk$set(echo = TRUE)
+
+#options(kableExtra.latex.load_packages = FALSE)
+#### required packages ####
+source("../includes/packages/packages.R")
+```
+
+
+# Lageparameter I
+
+\begin{center}
+  \begin{tabular}{lcc}
+    $j$ & Jahr & $y_j$ \\
+    \toprule
+    $1$ & $2016$ & $1524,8$ \\
+    $2$ & $2017$ & $1601,3$ \\
+    $3$ & $2018$ & $1667,9$ \\
+    $4$ & $2019$ & $1989,5$ \\
+  \end{tabular}
+\end{center}
+
+Berechnen Sie die durchschnittliche Wachstumsrate der Staatsausgaben. 
+
+
+# Lageparameter II
+
+Eine Person fährt mit ihrem Auto von A nach B und zurück. Die Streckenlänge beträgt $100$ km. Auf der Hinfahrt konnte lediglich eine Durchschnittsgeschwindigkeit von $50$ km/h erreicht werden, wohingegen die Rückfahrt mit einer durchschnittlichen Geschwindigkeit von $100$ km/h zurückgelegt werden konnte.
+
+Wie hoch war die Durchschnittsgeschwindigkeit beider Fahrten zusammen.
+
+# Streuungsmaße
+
+\begin{center}
+  \begin{tabular}{cll}
+    $x_i$& $h_i$&  $H(x)$\\
+  \toprule
+    1&$\frac{5}{40}=0,125$&0,125\\[2mm]
+    2&$\frac{7}{40}=0,175$&0,3\\[2mm]
+    3&$\frac{18}{40}=0,45$&0,75\\[2mm]
+    4&$\frac{8}{40}=0,2$&0,95\\[2mm]
+    5&$\frac{2}{40}=0,05$&1\\
+  \end{tabular}
+\end{center}
+
+\newpage
+
+Berechnen Sie für diesen Datensatz:
+
+\begin{enumerate}[label=(\alph*)]
+  \item Spannweite 
+  \item Quartilsabstand 
+  \item Varianz
+\end{enumerate}
+
+
+# Zusätzliche Beobachtung
+
+Für ein metrisches Merkmal $X$ liegen 10 Beobachtungen mit einem arithmetischen Mittel $\bar{X} = 6,9$ und einer Varianz $s^2 = 14,2$ vor.
+
+Welches arithmetische Mittel und welche Standardabweichung ergeben sich bei Hinzunahme der weiteren Ausprägung $x_{11} = 8$?
+
+# Streuungsmaße
+
+Ein Triathlet möchte sich aus Zeitgründen auf die Sportart beschränken, in der er die gleichmäßigste Leistung erbrachte (Angaben in Minuten):
+
+\begin{center}
+ \begin{tabular}{lcccccc} 
+    Training   & 1     &    2  &   3   &    4  &    5  &   6   \\
+    \toprule
+    Schwimmen  & 20,6  &  22,0 &  19,8 &  20,1 &  21,5 &  20,5 \\ 
+    Radfahren  & 45,3  &  44,7 &  40,5 &  49,0 &  46,2 &  47,2 \\ 
+    Laufen     & 68,1  &  66,2 &  69,3 &  74,4 &  61,2 &  67,3 \\ 
+\end{tabular}
+\end{center}
+
+
+Für welche Sportart wird sich der Athlet Ihrer Meinung nach entscheiden? Mit welcher Maßzahl würden Sie den Vergleich durchführen?
+
+
+

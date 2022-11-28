@@ -1,0 +1,86 @@
+---
+title: 'Deskriptive Statistik'
+author: 'Prof. Christoph Hanck'
+author2: 'M.Sc. Jens Klenke'
+subtitle: 'Übung 6'
+semester: "Wintersemester 2022/2023"
+output:
+  pdf_document:
+    keep_tex: yes
+    template: ../template.tex
+    fig_caption: yes
+    number_sections: true
+toc: true
+lot: true
+lof: true
+graphics: true
+linkcolor: black
+urlcolor: black
+citecolor: black
+colorlinks: true
+font: Times New Roman
+fontsize: 12pt
+geometry: lmargin = 2cm, rmargin = 2.5cm, tmargin = 2cm, bmargin = 2.5cm
+classoption: a4paper
+---
+
+```{r , include=FALSE}
+#Sys.setlocale(locale = "English_United States.1252") ## English US Windows
+knitr::opts_chunk$set(echo = TRUE)
+
+#options(kableExtra.latex.load_packages = FALSE)
+#### required packages ####
+source("../includes/packages/packages.R")
+```
+
+# Tansformationseigenschafte Varainz
+
+Zeigen Sie, dass für $y_j=\alpha+\beta x_j$, $j=1,\ldots,n$ gilt
+
+\begin{equation*}
+  s_y^2 = \beta^2 s_x^2.
+\end{equation*}
+
+# Verschiebungssatz
+
+Zeigen Sie den speziellen Verschiebungssatz:
+$$s^2 =\frac{1}{n}\sum_{j=1}^nx_j^2-\bar{x}^2$$
+
+# Kurtosis 
+
+Betrachte erneut die Daten zur Unternehmenszugehörigkeit2:
+\begin{equation*}
+x_j = \{9, 7, 7, 9, 8, 6, 6, 5, 8, 6, 5, 6, 7, 5, 6, 5, 5, 5, 5, 5\}.
+\end{equation*}
+
+Berechnen Sie den zentrierten Kurtosisparameter.
+
+\newpage
+
+# Kurtosis bei häufigkeitsverteilten Daten
+
+Betrachten Sie die folgenden häufigkeitsverteilten Daten und berechnen Sie den zentrierten Kurtosisparameter.
+
+\begin{center}
+  \begin{tabular}{ccrr}
+    $i$ &	$x_i$ & $h_i$ & $H(x)$ \\[2mm]
+  \toprule
+    $1$ & $5$ & $0,30$ & $0,30$ \\[2mm]
+    $2$ & $6$ & $0,25$ & $0,55$ \\[2mm]
+    $3$ & $7$ & $0,15$ & $0,70$ \\[2mm]
+    $4$ & $8$ & $0,20$ & $0,90$ \\[2mm]
+    $5$ & $9$ & $0,10$ & $1$    \\[2mm]
+  \end{tabular}
+\end{center}
+
+\newpage
+
+Berechnen Sie für diesen Datensatz:
+
+\begin{enumerate}[label=(\alph*)]
+  \item Spannweite 
+  \item Quartilsabstand 
+  \item Varianz
+\end{enumerate}
+
+

@@ -1,0 +1,81 @@
+---
+title: 'Deskriptive Statistik'
+author: 'Prof. Christoph Hanck'
+author2: 'M.Sc. Jens Klenke'
+subtitle: 'Übung 3'
+semester: "Wintersemester 2022/2023"
+output:
+  pdf_document:
+    keep_tex: yes
+    template: ../template.tex
+    fig_caption: yes
+    number_sections: true
+toc: true
+lot: true
+lof: true
+graphics: true
+linkcolor: black
+urlcolor: black
+citecolor: black
+colorlinks: true
+font: Times New Roman
+fontsize: 12pt
+geometry: lmargin = 2cm, rmargin = 2.5cm, tmargin = 2cm, bmargin = 2.5cm
+classoption: a4paper
+---
+
+```{r , include=FALSE}
+#Sys.setlocale(locale = "English_United States.1252") ## English US Windows
+knitr::opts_chunk$set(echo = TRUE)
+
+#options(kableExtra.latex.load_packages = FALSE)
+#### required packages ####
+source("../includes/packages/packages.R")
+```
+
+
+# Häufigkeitsverteilungen und Quantile
+
+Betrachten Sie erneut die Angaben aus Aufgabe $1$ des zweiten Arbeitsblattes zur Dauer der Unternehmenszugehörigkeit (in
+Jahren) der Beschäftigten eines Unternehmens.
+
+$$X = \left\{ \ 9, \; 7, \; 7, \; 9, \; 8, \; 6, \; 6, \; 5, \; 8, \; 6, \; 5, \; 6, \; 7, \; 5 , \; 6, \; 5, \; 5, \; 5, \; 5, \; 5 \ \right\}
+$$
+
+\begin{enumerate}[label=(\alph*)]
+  \item Berechnen Sie für den Beispieldatensatz die Werte der absoluten Häufigkeitssummen- und der empirischen Verteilungsfunktion. 
+  \item Stellen Sie diese empirische Verteilungsfunktion grafisch dar. 
+  \item Nutzen Sie die Ergebnisse aus (a) und (b), um folgende Fragen zu beantworten:
+  \begin{enumerate}[label=\roman*)]
+    \item Wie viele Arbeitnehmende sind höchstens $7$ Jahre im Unternehmen angestellt?
+    \item Wie hoch ist der Anteil der Arbeitnehmenden, die länger als $5$, aber höchsten $7$ Jahre im Unternehmen angestellt sind?
+    \item Wie viele Arbeitnehmende sind weniger als $7$ Jahre im Unternehmen angestellt?
+    \item Wie hoch ist der Anteil an Arbeitnehmenden, die mindestens $6$ Jahre im Unternehmen angestellt sind?
+    \item Wie viele Arbeitnehmende sind länger als $6$ Jahre im Unternehmen angestellt?
+  \end{enumerate}
+  \item Berechnen Sie das $0,5$-, das $0,4$- und das $0,3$-Quantil. 
+\end{enumerate}
+
+# Quantile
+
+```{r, include = FALSE}
+load(here::here('exercise_03/hotel_stars.RData'))
+```
+
+Auf Moodle finden Sie den Datensatz `hotel_stars.RData`, welcher `r length(hotel_stars)` Sternebewertungen von Hotelgästen zu deren Aufenthalte in Hotels in Las Vegas enthält.
+
+__Hinweise:__ Sie können den Datensatz mit dem Befehl `load('hotel_stars.RData')` in Ihre globale Umgebung laden. Achten Sie darauf, dass Ihr Skript und die Daten im selben Ordner auf Ihrem Rechner gespeichert sind. 
+
+Lösen Sie die folgenden Aufgaben ausschließlich in `R`.
+
+\begin{enumerate}[label=(\alph*)]
+  \item Berechnen Sie für den Datensatz die Werte der absoluten Häufigkeitssummenfunktion und der empirischen Verteilungsfunktion.
+  \item Plotten Sie die empirische Verteilungsfunktion. 
+  \item Berechnen Sie den Modus.
+  \item Berechnen Sie den Median.
+  \item Berechnen Sie alle Perzentile. 
+\end{enumerate}
+
+
+
+

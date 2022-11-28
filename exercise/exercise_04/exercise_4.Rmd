@@ -1,0 +1,108 @@
+---
+title: 'Deskriptive Statistik'
+author: 'Prof. Christoph Hanck'
+author2: 'M.Sc. Jens Klenke'
+subtitle: 'Übung 4'
+semester: "Wintersemester 2022/2023"
+output:
+  pdf_document:
+    keep_tex: yes
+    template: ../template.tex
+    fig_caption: yes
+    number_sections: true
+toc: true
+lot: true
+lof: true
+graphics: true
+linkcolor: black
+urlcolor: black
+citecolor: black
+colorlinks: true
+font: Times New Roman
+fontsize: 12pt
+geometry: lmargin = 2cm, rmargin = 2.5cm, tmargin = 2cm, bmargin = 2.5cm
+classoption: a4paper
+---
+
+```{r , include=FALSE}
+#Sys.setlocale(locale = "English_United States.1252") ## English US Windows
+knitr::opts_chunk$set(echo = TRUE)
+
+#options(kableExtra.latex.load_packages = FALSE)
+#### required packages ####
+source("../includes/packages/packages.R")
+```
+
+
+# Lageparameter I
+
+Aus der Vorlesung ist Ihnen schon der Datensatz `iris` bekannt, welcher Informationen  über die Abmessungen von Kelchblättern beinhaltet. Die Variable `Sepal.Width` beschreibt die Breite von insgesamt $150$ Blättern. 
+
+Berechnen Sie für die Breite:
+\begin{enumerate}[label=(\alph*)]
+  \item den Median. 
+  \item den Modus. 
+  \item das arithmetische Mittel. 
+\end{enumerate}
+
+_Hinweis: Der Datensatz steht Ihnen in `R` automatisch zur Verfügung. Um auf eine Variable in einen Datensatz zugreifen zu können, müssen Sie das `$`-Symbol benutzen._ 
+
+# Lageparameter II
+
+$134$ Bereitschaften des Malteser Hilfsdienstes werden über die Anzahl ihrer jährlichen Einsätze befragt.
+Nachdem $130$ Bereitschaften ihre Angaben gemacht haben, ergibt sich:
+
+\FloatBarrier
+\begin{table}[htp]
+  \begin{tabular}{lr}
+    Modus                 & $x_M = 2500$ \\
+    Median                & $x_{Med} = 2900$ \\
+    arithmetisches Mittel & $\bar{x} = 3200$
+  \end{tabular}
+\end{table}
+\FloatBarrier
+
+Schließlich machen die letzten vier Bereitschaften ihre Angaben. Sie fuhren $1000$, $1800$, $5000$ bzw. $6072$ Einsätze.
+
+Bestimmen Sie unter Berücksichtigung aller eingegangenen Daten:
+
+\begin{enumerate}[label=(\alph*)]
+  \item den Median. 
+  \item den Modus. 
+  \item das arithmetische Mittel. 
+\end{enumerate}
+
+# Minimierungseigenschaft des arithmetischen Mittels
+
+Zeigen Sie die Minimierungseigenschaf:
+
+$$\sum_{j = 1}^{n} (x_j - \bar{x})^{2} \leq \sum_{j = 1}^{n} (x_j - a)^{2} \qquad \text{für}\; a \in \mathbb{R}$$
+
+# Lageparameter III
+Der monatliche Gasverbrauch (in Kubikmetern) eines Einfamilienhauses im Jahr 2021 war wie
+folgt:
+
+
+\FloatBarrier
+\begin{table}[htp]
+  \centering
+   \resizebox{\textwidth}{!}{ 
+  \begin{tabular}{@{}lcccccccccccc@{}}
+    Monat & Jan & Feb & Mär & Apr & Mai & Jun & Jul & Aug & Sep & Okt & Nov & Dez \\ \midrule
+    $x_i$ & $386,4$  & $312,0$ & $300,0$ & $194.4$  & $84,0$ &  $52,8$ & $40,8$ & $38,4$ & $124,8$ & $201,6$ & $292,8$ & $372,0$     \\
+  \end{tabular}
+   }
+\end{table}
+\FloatBarrier
+
+\begin{enumerate}[label=(\alph*)]
+  \item Berechnen Sie den durchschnittlichen Gasverbrauch pro Monat.
+  \item Auf der jährlichen Abrechnung des Gasversorgers wird der Verbrauch in der Regel in Kilowattstunden (kWh) angegeben. Dieser Wert ergibt sich aus der Formel
+  
+  $$kWh = m^3 \times Brennwert \times Zustandszahl$$
+  welche die Menge an tatsächlich entnommener thermischer Energie angibt. Angenommen der Brennwert betrage $9,3$ und die Zustandszahl $0,9103$. Wieviel thermische Energie wurde im Durchschnitt im Beispielhaushalt pro Monat verbraucht?
+\end{enumerate}
+
+# Axiome 
+
+Erläutern Sie kurz die $4$ wichtigsten Axiome der Lageparameter und zeigen Sie, dass jene von Modus $x_M$, Median $x_{Med}$ und arithmetischem Mittel $\bar{x}$ erfüllt werden.   
