@@ -3,7 +3,7 @@ project:
   output-dir: "docs"
 
 website:
-  title: "EidÖ WiSe22"
+  title: "Deskriptive Statistik WiSe 22"
   navbar:
     left:
       - href: Vorlesung.qmd
