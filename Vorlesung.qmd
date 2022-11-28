@@ -8,6 +8,8 @@ Bei wichtigen Fragen bzgl. der Vorlesung wenden Sie sich bitte per Email an [Yan
 ## Vorlesungs Unterlagen
 
 -   [Skript](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/lecture/Folien-Deskriptive-Statistik_Kapitel_0-6.pdf)
+-   [Syllabus Präsentation](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/lecture/SyllabusDeskriptiveStatistik_2022_presentation.pdf)
+-   [Syllabus](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/lecture/SyllabusDeskriptiveStatistik_2022.pdf)
 
 <!--
 -   [Altklausur](https://github.com/mca91/Eidoe22/raw/main/altklausur.pdf)
