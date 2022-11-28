@@ -1,19 +1,22 @@
 ---
-title: "Einführung in die Ökonometrie (WiSe 22)"
+title: "Deskriptive Statistik (WiSe 22)"
 subtitle: "Lehrstuhl für Ökonometrie (UDE)"
 ---
 
-Aufgrund der aktuellen teschnischen Probleme bei den Informationsdiensten der Universität stellen wir Materialien für den Kurs *Einführung in die Ökonometrie* kurzfristig über diese Website bereit. 
+Aufgrund der aktuellen teschnischen Probleme bei den Informationsdiensten der Universität stellen wir Materialien für den Kurs *Deskriptive Statistik* kurzfristig über diese Website bereit. 
 
-**Bitte beachten Sie, dass sämtlich Emaildienste der Universität ebenfalls betroffen sind. Wichtige Infos kommunizieren wir daher zusätzlich über unseren Dischord-Server (siehe unten). Bitte nutzen Sie Discord für Diskussionen rund um die Lehrveranstaltung.** 
+**Bitte beachten Sie, dass sämtlich Emaildienste der Universität ebenfalls betroffen sind. Daher haben wir die nachfolgenden E-mail-Adressen für Sie eingerichtet.** 
 
 ## Kontakt
 
 Bei **wichtigen** Fragen wenden Sie sich bitte per Email an uns:
 
-- [Martin Arnold](mailto:martchriarno@googlemail.com?subject=[EidÖ])
-- [Yannick Hoga](mailto:hogayannick@gmail.com?subject=[EidÖ])
+- [Jens Klenke](mailto:jens.klenke.ude@gmail.com?subject=[Deskriptive Statistik])
+- [Christoph Hanck](mailto:christoph.hanck@uni-dortmund.de?subject=[Deskriptive Statistik])
 
+<!--
 ## Discord: Diskussions- und Nachrichtenforum
 
 <iframe src="https://e.widgetbot.io/channels/1046707102984437770/1046707119774236694" height="600" width="100%"></iframe>
+-->
+
