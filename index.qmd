@@ -18,6 +18,34 @@ Bei **wichtigen** Fragen wenden Sie sich bitte per E-Mail an uns:
 
 Aufgrund der technischen Störungen an der Universität Duisburg-Essen wird das 2. Testat, geplant am 30.11.2022, auf unbestimmte Zeit verschoben. Wir werden Sie über Änderungen frühzeitig informieren.
 
+## Bonuspunkte
+Weiter Informationen folgen in Kürze.
+
+
+## Kahoot!
+
+Ab Mittwoch, den 7.12.2022, werden sowohl in der Vorlesung als auch in der Übung wieder Kahoots durchgeführt. Bitte sorgen Sie mit ihrem Mobilfunknetz für eine entsprechende Internetanbindung. Das Uninetzwerk eduroam steht bis auf Weiteres nicht zur Verfügung. 
+
+## Weitere Module
+
+Wir möchten Sie außerdem auf folgende Websites mit Lehrmaterialien zu weiteren Modulen aufmerksam machen:
+
+
+### Lehrstuhl für Ökonometrie
+
+- [Deskriptive Statistik](https://mca91.github.io/Eidoe22/)
+- [Methoden der Ökonometrie](https://github.com/karo93/Methoden2223)
+- [Recent Developments in Econometrics](https://jens-klenke.github.io/RDIE_WiSe_22/)
+
+
+#### Lehrstuhl UEE (Prof. Ziel)
+
+- [Umweltökonomik und Erneuerbare Energien](https://uee.berrisch.biz)
+
+
+
+
+
 <!--
 ## Discord: Diskussions- und Nachrichtenforum
 

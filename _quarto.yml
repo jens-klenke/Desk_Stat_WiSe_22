@@ -10,6 +10,16 @@ website:
         text: "Vorlesung"
       - href: uebung.qmd
         text: "Übung"
+    right:
+      - icon: github
+        href: https://github.com/jens-klenke
+        aria-label: GitHub
+      - icon: git
+        href: https://github.com/jens-klenke/RDIE_WiSe_22
+        aria-label: GitHub
+  page-footer:
+    center: "Content by Jens Klenke. Built using <a href='https://quarto.org'>Quarto</a> &centerdot; Licensed under <a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a>"
+  open-graph: true
   
 format:
   html:
