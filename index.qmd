@@ -11,8 +11,8 @@ Aufgrund der aktuellen technischen Probleme bei den Informationsdiensten der Uni
 
 Bei **wichtigen** Fragen wenden Sie sich bitte per E-Mail an uns:
 
--   [Jens Klenke](mailto:jens.klenke.ude@gmail.com?subject=[Deskriptive Statistik])
--   [Christoph Hanck](mailto:christoph.hanck@uni-dortmund.de?subject=[Deskriptive Statistik])
+-   [Jens Klenke](mailto:jens.klenke.ude@gmail.com?subject=%5BDeskriptive%20Statistik%5D)
+-   [Christoph Hanck](mailto:christoph.hanck@uni-dortmund.de?subject=%5BDeskriptive%20Statistik%5D)
 
 ## Testate
 
@@ -24,27 +24,32 @@ Die Bonuspunkte der Kahoots bleiben durch die Störungen unverändert. Zu der Ha
 
 ## Kahoot!
 
-Ab Mittwoch, den 7.12.2022, werden sowohl in der Vorlesung als auch in der Übung wieder Kahoots durchgeführt. Bitte sorgen Sie mit ihrem Mobilfunknetz für eine entsprechende Internetanbindung. Das Uninetzwerk eduroam steht bis auf Weiteres nicht zur Verfügung. 
+Ab Mittwoch, den 7.12.2022, werden sowohl in der Vorlesung als auch in der Übung wieder Kahoots durchgeführt. Bitte sorgen Sie mit ihrem Mobilfunknetz für eine entsprechende Internetanbindung. Das Uninetzwerk eduroam steht bis auf Weiteres nicht zur Verfügung.
 
 ## Discord: Diskussions- und Nachrichtenforum
 
 Bitte nutzen Sie den Channel #diskussion.
 
-<iframe src="https://e.widgetbot.io/channels/1046886827304419368/1046886827304419371" height="600" width="100%"></iframe>
+<iframe src="https://e.widgetbot.io/channels/1046886827304419368/1046886827304419371" height="600" width="100%">
+
+</iframe>
 
 ## Weitere Module
 
 Wir möchten Sie außerdem auf folgende Websites mit Lehrmaterialien zu weiteren Modulen aufmerksam machen:
 
-
 ### Lehrstuhl für Ökonometrie
 
-- [Deskriptive Statistik](https://mca91.github.io/Eidoe22/)
-- [Methoden der Ökonometrie](https://github.com/karo93/Methoden2223)
-- [Recent Developments in Econometrics](https://jens-klenke.github.io/RDIE_WiSe_22/)
+#### Bachelorveranstaltungen 
+
+-   [Einführung in die Ökonometrie](https://mca91.github.io/Eidoe22/)
+
+##### Masterveranstaltungen 
+
+-   [Methoden der Ökonometrie](https://github.com/karo93/Methoden2223)
+-   [Recent Developments in Econometrics](https://jens-klenke.github.io/RDIE_WiSe_22/)
 
 
 #### Lehrstuhl UEE (Prof. Ziel)
 
-- [Umweltökonomik und Erneuerbare Energien](https://uee.berrisch.biz)
-
+-   [Umweltökonomik und Erneuerbare Energien](https://uee.berrisch.biz)
