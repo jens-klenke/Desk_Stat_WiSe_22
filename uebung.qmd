@@ -18,23 +18,15 @@ Nachfolgend finden Sie Materialien für die Übung.
 -   [Mitschrift Übung 2](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/exercise/exercise_02/Mitschrift_Uebung_02.pdf)
 -   [Mitschrift Übung 3](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/exercise/exercise_03/Mitschrift_Uebung_03.pdf)
 -   [Mitschrift Übung 4](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/exercise/exercise_04/Mitschrift_Uebung_04.pdf)
+-   [Mitschrift Übung 5](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/exercise/exercise_05/Mitschrift_Uebung_05.pdf)
 
 ## R-Lösungen
 -   [R-Lösungen Übung 1](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/exercise/exercise_01/R_code_exercise_1.R)
 -   [R-Lösungen Übung 2](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/exercise/exercise_02/R_code_exercise_2.R)
 -   [R-Lösungen Übung 3](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/exercise/exercise_03/R_code_exercise_3.R)
 -   [R-Lösungen Übung 4](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/exercise/exercise_04/R_code_exercise_4.R)
+-   [R-Lösungen Übung 5](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/exercise/exercise_05/R_code_exercise_5.R)
 
 ## Datensätze
 
 -   [hotel_stars.RData](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/exercise/exercise_03/hotel_stars.RData)
-
-
-<!--
-## Zusatzaufgabe 1
-
-*Mit dieser Zusatzaufgabe können Sie bis zu 2.5 Zusatzpunkte für die Klausur erwerben. Die Zusatzpunkte werden nur bei bestandener Klausur angerechnet. Sie können die Aufgaben in einer Gruppe von bis zu drei Personen bearbeiten. Ihre Lösungen sind bis einschließlich Mittwoch, den 7.12.2022, unter Nennung von Na- men und Matrikelnummer aller Beteiligten als kommentiertes R-Skript per E-Mail einzureichen (siehe Aufgabenblatt).*
-
--   [Zusatzaufgabe 1](https://github.com/mca91/Eidoe22/raw/main/Assignment1.pdf)
--   <a href="https://github.com/mca91/Eidoe22/raw/main/stimmung.csv" download>stimmung.csv</a> (Rechtsklick -\> Ziel/Datei speichern als/unter, falls sich kein download öffnet)
--->
