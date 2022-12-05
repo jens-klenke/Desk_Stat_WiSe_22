@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: "docs"
-
+  
 website:
   title: "DS WiSe 22"
   navbar:
