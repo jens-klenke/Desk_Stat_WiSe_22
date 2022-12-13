@@ -13,6 +13,8 @@ Nachfolgend finden Sie Materialien für die Übung.
 -   [Übungsblatt 5](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/exercise/exercise_05/Uebungsblatt_5.pdf)
 -   [Übungsblatt 6](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/exercise/exercise_06/Uebungsblatt_6.pdf)
 -   [Übungsblatt 7](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/exercise/exercise_07/Uebungsblatt_7.pdf)
+-   [Übungsblatt 8](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/exercise/exercise_08/Uebungsblatt_8.pdf)
+
 
 ## Mitschirften 
 -   [Mitschrift Übung 1](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/exercise/exercise_01/Mitschrift_Uebung_01.pdf)
