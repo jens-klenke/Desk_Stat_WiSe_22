@@ -4,7 +4,7 @@ title: "Vorlesung"
 
 ## Unterlagen
 
--   [Skript](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/lecture/Folien-Deskriptive-Statistik_Kapitel_0-6.pdf)
+-   [Skript](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/lecture/Folien-Deskriptive-Statistik_Kapitel_0-9.pdf)
 -   [Syllabus Präsentation](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/lecture/SyllabusDeskriptiveStatistik_2022_presentation.pdf)
 -   [Syllabus](https://github.com/jens-klenke/Desk_Stat_WiSe_22/raw/main/lecture/SyllabusDeskriptiveStatistik_2022.pdf)
 
